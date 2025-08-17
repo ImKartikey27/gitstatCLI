@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A Git user friendly CLI interface to ease git command",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gitstats": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ImKartikey27/gitstatCLI/issues"
   },
-  "homepage": "https://github.com/ImKartikey27/gitstatCLI#readme"
+  "homepage": "https://github.com/ImKartikey27/gitstatCLI#readme",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "execa": "^9.6.0",
+    "inquirer": "^12.9.2"
+  }
 }
