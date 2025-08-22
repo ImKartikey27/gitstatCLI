@@ -46,7 +46,6 @@ async function showMainMenu() {
       value: 'stats'
     },
     new inquirer.Separator(),
-    
     {
       name: `${icons.error} Exit`,
       value: 'exit'
